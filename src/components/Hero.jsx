@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <div className="justify-center md:p-10 lg:p-20 p-8 md:items-center grid grid-cols-1 gap-10 md:grid-cols-2 items-center ">
       <div className="flex flex-col text-white relative">
-        <h1 className="md:text-6xl md:leading-[80px] text-left leading-[60px] text-3xl tracking-wide font-semibold md:font-bold">
+        <h1 className="md:text-6xl md:leading-[80px] text-left leading-[60px] text-3xl tracking-wide font-bold">
           Decentralized Token Governed By The
           <span className="text-[#43C878]"> Community</span>
         </h1>

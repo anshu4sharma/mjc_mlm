@@ -23,14 +23,14 @@ const Network = () => {
           </p>
         </div>
         <img
-          src="/assets/dashboard.svg"
+          src="/assets/dashboard.png"
           className=""
           width={800}
           alt="dashboard"
         />
       </div>
       <div className="flex justify-center items-center w-full">
-        <img src="/assets/dashboard2.svg" className="" alt="dashboard" />
+        <img src="/assets/dashboard2.png" className="" alt="dashboard" />
       </div>
     </div>
   );
