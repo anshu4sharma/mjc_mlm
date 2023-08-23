@@ -3,7 +3,7 @@ import React from "react";
 const Network = () => {
   return (
     <div className="justify-center text-white md:p-10 p-8 md:items-center grid grid-cols-1 gap-10  items-center ">
-      <div className="flex gap-4 w-full items-center justify-center ">
+      <div className="flex gap-4 w-full items-center justify-center flex-col md:flex-row">
         <img src="/assets/right.svg" className="w-10" alt="notfound" />
         <h1 className="md:text-3xl text-center ml-2">
           Decentralized platform to earn rewards using MJC Tokens
