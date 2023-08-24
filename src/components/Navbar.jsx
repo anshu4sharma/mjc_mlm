@@ -62,16 +62,21 @@ export default function Navbar() {
                         to={item.href}
                         key={index}
                         className={({ isActive }) =>
-                         isActive ? " px-5 py-2 text-base pb-4 font-medium text-white border-b border-[#14E8B6] " : "px-5 py-2 text-base font-medium text-white pb-4 "
+                          isActive
+                            ? " px-5 py-2 text-base pb-4 font-medium text-white border-b border-[#14E8B6] "
+                            : "px-5 py-2 text-base font-medium text-white pb-4 "
                         }
                       >
                         {item.label}
                       </NavLink>
                     ))}
                   </div>
-                  <button className="leading-3 w-full max-w-fit py-4  justify-center hidden md:flex items-center p-3 text-center rounded-md   connect-wallet  text-white font-bold ">
+                  <Link
+                    to={"/dashboard"}
+                    className="leading-3 w-full max-w-fit py-4  justify-center hidden md:flex items-center p-3 text-center rounded-md   connect-wallet  text-white font-bold "
+                  >
                     Connect to Dapp
-                  </button>
+                  </Link>
                 </div>
                 <div
                   className={`flex md:hidden p-4 h-full items-center justify-between w-full md:w-auto  ${
@@ -127,7 +132,13 @@ export default function Navbar() {
                     >
                       {item.label}
                     </Link>
-                  ))}
+                  ))}{" "}
+                  <Link
+                    to={"/dashboard"}
+                    className="leading-3 w-full mt-2 max-w-fit py-4  justify-center flex items-center p-3 text-center rounded-md   connect-wallet  text-white font-bold "
+                  >
+                    Connect to Dapp
+                  </Link>
                 </div>
               </Disclosure.Panel>
             </>

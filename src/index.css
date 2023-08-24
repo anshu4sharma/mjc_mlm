@@ -9,11 +9,22 @@ body {
   font-family: "Plus Jakarta Sans", sans-serif;
 }
 
-
-.connect-wallet{
-  background: linear-gradient(180deg, #58DEA2 0%, rgba(9, 133, 74, 0.38) 100%);
+.connect-wallet {
+  background: linear-gradient(180deg, #58dea2 0%, rgba(9, 133, 74, 0.38) 100%);
 }
 
-.card{
-background: linear-gradient(180deg, #1A1B1A 0%, rgba(58, 58, 58, 0.31) 100%);
+.card {
+  background: linear-gradient(180deg, #1a1b1a 0%, rgba(58, 58, 58, 0.31) 100%);
+}
+
+.dcard {
+  background: linear-gradient(180deg, #1a1b1a 0%, rgba(50, 92, 74, 0.31) 100%);
+}
+
+.dashboard{
+  background: linear-gradient(180deg, #070707 0%, #070A16 100%);
+}
+
+.stakingcard{
+  background: linear-gradient(180deg, #222223 0%, #22222300 100%);
 }
