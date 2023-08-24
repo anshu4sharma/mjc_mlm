@@ -37,7 +37,7 @@ const DashboardNavbar = ({ setOpenTab }) => {
               fill="#0FCA87"
             />
           </svg>
-          <p>Stake V4X Coin</p>
+          <p>Stake MJC Coin</p>
         </div>
       </div>
     </div>
