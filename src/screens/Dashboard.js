@@ -2,8 +2,8 @@ import React from "react";
 import StakingTable from "../components/StakingTable";
 const Dashboard = () => {
   return (
-    <div className="flex w-full justify-center items-center p-10 md:px-20 flex-col ">
-      <div className="grid gap-4 md:grid-cols-3 dashboard w-full">
+    <div className="flex w-full justify-center items-center p-10 md:px-20  md:pb-20 flex-col h-full dashboard">
+      <div className="grid gap-4 md:grid-cols-3  w-full">
         <div className="dcard text-white md:max-w-md w-full md:p-6 p-4 rounded-xl">
           <div className="flex flex-col">
             <h1 className="text-base">Stake wallet</h1>

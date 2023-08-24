@@ -8,7 +8,7 @@ const Layout_Dashboard = () => {
   const { wallet, hasProvider, isConnecting, connectMetaMask } = useMetaMask()
   console.log(wallet);
   return (
-    <div className="h-screen">
+    <div className="">
       <div className="flex items-center  md:px-20 md:py-6 p-10 justify-between">
         <img src="/assets/randomz.svg" height={40} width={40} alt="" />
         {

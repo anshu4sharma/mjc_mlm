@@ -2,8 +2,9 @@ import React from "react";
 
 const Staking = () => {
   return (
-    <div className="flex w-full justify-center items-start p-10 md:px-20 flex-col ">
-      <div className="flex stakingcard flex-col text-white gap-4 p-6 min-h-full max-w-sm w-full rounded-lg shadow-[#222223] shadow-md">
+    <div className="flex h-screen items-start dashboard">
+      <div className="flex w-full justify-center items-start p-10 md:px-20 flex-col ">
+      <div className="flex stakingcard flex-col text-white gap-4 p-6  max-w-sm w-full rounded-lg shadow-[#222223] shadow-md">
         <div className="flex md:flex-row flex-col gap-2 items-center justify-between">
           <div className="flex gap-4">
             <svg
@@ -94,6 +95,7 @@ const Staking = () => {
         <p>  Stake tokens</p>
         </div>
       </div>
+    </div>
     </div>
   );
 };
